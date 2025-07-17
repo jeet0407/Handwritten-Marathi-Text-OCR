@@ -18,6 +18,8 @@ A deep learning-based OCR system that recognizes **handwritten Marathi sentences
 - From [UCI ML Repository] https://archive.ics.uci.edu/dataset/389/devanagari+handwritten+character+dataset
 - Split: 80% train, 10% val, 10% test
 
+## Documentation - https://drive.google.com/file/d/1l6Fsw2-6c4X818qJ7VGx_RrQ51asv8um/view
+
 ## ⚙️ Setting Up the Project
 
 Follow these steps to set up the project on your local machine:
