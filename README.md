@@ -17,3 +17,45 @@ A deep learning-based OCR system that recognizes **handwritten Marathi sentences
 - 92,000 images (2000/class)  
 - From [UCI ML Repository] https://archive.ics.uci.edu/dataset/389/devanagari+handwritten+character+dataset
 - Split: 80% train, 10% val, 10% test
+
+## ⚙️ Setting Up the Project
+
+Follow these steps to set up the project on your local machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/Handwritten-Marathi-Text-OCR.git
+   cd Handwritten-Marathi-Text-OCR
+   ```
+
+2. **Create a virtual environment:**
+   ```bash
+   python -m venv .venv
+   ```
+
+3. **Activate the virtual environment:**
+   - On Windows:
+     ```bash
+     .venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source .venv/bin/activate
+     ```
+
+4. **Install the required libraries:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Create necessary directories:**
+   - Create a directory named `pls` in the root of the project. Inside `pls`, create three subdirectories: `train`, `val`, and `test`.
+   - Create a directory named `images` in the root of the project. This is where you will store the images you want to test.
+
+6. **Run the Jupyter Notebook:**
+   - Start Jupyter Lab:
+     ```bash
+     jupyter lab
+     ```
+   - Open and run the `ocr_model.ipynb` notebook to train the model.
+   - Open and run the `outputs.ipynb` notebook to test the model on your images.
